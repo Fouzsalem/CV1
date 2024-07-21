@@ -230,6 +230,7 @@ nav ul li a{
 }
 .contact-left , .contact-right {
     flex-basis: 50%;
+    color:var(--secondary-color);
 }
 .contact-right img{
     width: 100%;
@@ -275,7 +276,9 @@ hr{
     outline: none;
     border:2px solid rgb(254, 129, 217);
     font-weight: bold;
-    cursor: pointer;}
+    cursor: pointer;
+    color:var(--secondary-color);
+}
     #footer{
         background:var(--primary-color);   
     }
@@ -336,12 +339,14 @@ hr{
     left:0;
     transform: translateY(-50%);
     z-index: 1;
+  
 }
 .social-icons img{
     display: block;
     width: 20px;
     margin: 0 auto 20px;
     cursor: pointer;
+   
 }
 
 
